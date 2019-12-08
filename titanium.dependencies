@@ -1,0 +1,30 @@
+
+[
+  {
+    "repository" : "device_yu_garlic",
+    "target_path": "device/yu/garlic",
+    "branch": "ten"
+  },
+  {
+    "repository" : "proprietary_vendor_yu",
+    "target_path": "vendor/yu",
+    "branch": "ten"
+  },
+  {
+    "repository" : "android_kernel_tinno_msm8937",
+    "target_path": "kernel/tinno/msm8937",
+    "branch": "ten"
+  },
+  {
+    "remote":"github",
+    "repository": "TINNO-8937/android_device_tinno_msm8937-common",
+    "target_path": "device/tinno/msm8937-common",
+    "branch":"lineage-17.0"
+  },
+  {
+    "remote":"github",
+    "repository": "TINNO-8937/proprietary_vendor_tinno",
+    "target_path": "vendor/tinno",
+    "branch":"lineage-17.0"
+  }
+]
